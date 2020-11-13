@@ -16,15 +16,15 @@ if(!require(rpart.plot)) install.packages("rpart.plot", repos = "http://cran.us.
 
 #####################################################
 ## Import IPEDS CSV Files from Github & Clean Data ##
-sectors <- read.csv("https://raw.githubusercontent.com/drchrisd/gradrates/master/sectors.csv")
-sectorlabels <- read.csv("https://raw.githubusercontent.com/drchrisd/gradrates/master/sectorlabels.csv")
-fte <- read.csv("https://raw.githubusercontent.com/drchrisd/gradrates/master/fte.csv")
+sectors <- read.csv("https://raw.githubusercontent.com/drcdavidson/gradrates/main/IPEDS_Data/sectors.csv")
+sectorlabels <- read.csv("https://raw.githubusercontent.com/drcdavidson/gradrates/main/IPEDS_Data/sectorlabels.csv")
+fte <- read.csv("https://raw.githubusercontent.com/drcdavidson/gradrates/main/IPEDS_Data/fte.csv")
 pell <- read.csv("https://raw.githubusercontent.com/drchrisd/gradrates/master/pell.csv")
-f.s.ratio <- read.csv("https://raw.githubusercontent.com/drchrisd/gradrates/master/s.f.ratio.csv")
-admit <- read.csv("https://raw.githubusercontent.com/drchrisd/gradrates/master/percent.admit.csv")
-retention <- read.csv("https://raw.githubusercontent.com/drchrisd/gradrates/master/retention.csv")
-gradrates <- read.csv("https://raw.githubusercontent.com/drchrisd/gradrates/master/grad.csv") 
-variables <- read.csv("https://raw.githubusercontent.com/drchrisd/gradrates/master/Variables.csv")
+f.s.ratio <- read.csv("https://raw.githubusercontent.com/drcdavidson/gradrates/main/IPEDS_Data/pell.csv")
+admit <- read.csv("https://raw.githubusercontent.com/drcdavidson/gradrates/main/IPEDS_Data/percent.admit.csv")
+retention <- read.csv("https://raw.githubusercontent.com/drcdavidson/gradrates/main/IPEDS_Data/retention.csv")
+gradrates <- read.csv("https://raw.githubusercontent.com/drcdavidson/gradrates/main/IPEDS_Data/grad.csv") 
+variables <- read.csv("https://raw.githubusercontent.com/drcdavidson/gradrates/main/IPEDS_Data/Variables.csv")
 
 ###################################################
 ## Clean Data and Combine Files into the Dataset ##
