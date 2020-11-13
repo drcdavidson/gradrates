@@ -1,0 +1,12 @@
+Variable,Definition
+UnitID, The identification number given by IPEDS for each institution. 
+Institution.Name, Official name of the institution. 
+Sector, Indicator for the control and level of the institution. 
+Year, Represents the year for which the the data was reported.
+GradRate, "The ratio of the number of students from the bachelor's degree-seeking cohort, who completed a bachelor's degree within 150 percent of normal time (6-years) divided by the adjusted cohort."
+FTE, Derived by calculating the full-time equivalent of the institution's part-time enrollment and then adding it to the full-time enrollment of the institution.
+PercAdmit, Ratio of the number of admissions offered divided by the total number of applicants.
+PELL, "Percentage of full-time, first-time degree/certificate-seeking undergraduate students who were awarded Pell grants."
+SF.Ratio, Ratio of the total number of FTE students not in graduate or professional programs divided by the total FTE instructional staff not teaching in graduate or professional programs.
+Retention, Percentage of students from the Full-time fall cohort that were enrolled in the prior year.
+
