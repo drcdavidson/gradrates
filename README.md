@@ -1,7 +1,6 @@
-# gradrates
-Graduation Rates
+# Graduation Rates
 
-This repository consists of the various variable files, R Scripts abd R Markdown Script.
+This repository includes the R Scripts and R Markdown file for one of the final projects for the HarvardX Data Science: Capstone towards the Professional Certificate in Data Sciences via EdX. 
 
 # Project Description:
 
